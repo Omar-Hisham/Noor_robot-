@@ -22,4 +22,4 @@ $export ROS_MASTER_URI=http://192.168.0.193:11311
 $python3 openAiNode.py
 
 # Note
-to change the language you can change the var lang input on those files gspeech.py, openai.py and tts.py (from en to the desired language)
+to change the language you can change the var lang input on those files stt.py, tts.py and openai.py (from en to the desired language)
