@@ -5,8 +5,8 @@ This ROS package contains three nodes that enable speech-to-text (STT) and text-
 
 ## Dependencies
 
-- ROS (Robot Operating System)
-- Python 2.7 or 3.x
+- ROS melodic (installed on Noor) & ROS noetic (for openai node)
+- Python 2.7 and (3.x for openai node)
 - speech_recognition
 - gtts (Google Text-to-Speech)
 - (your custom API for communicating with OpenAI)
@@ -29,3 +29,4 @@ The package consists of the following files:
 $ rosrun openai_chat stt_node.py
 2. Launch the TTS node in another terminal:
 $ rosrun openai_chat tts_node.py
+3-
