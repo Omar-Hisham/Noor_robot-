@@ -1,9 +1,11 @@
 # User Manual of Noor
 
 ## Interfacing with Noor 
-1- Install NoMachine.
-2- Connect to WIFI (USERNAME: TP-Link_4C6b , PASSWORD: 50441284)
-3- In NoMachine, Enter USERNAME: jestson , password: 2020
+1-Install NoMachine.
+
+2-Connect to WIFI (USERNAME: TP-Link_4C6b , PASSWORD: 50441284)
+
+3-In NoMachine, Enter USERNAME: jestson , password: 2020
 
 
 # First turn on Master (start functionalities of Noor)
