@@ -31,3 +31,6 @@ $python3 openAiNode.py
 
 # Note
 to change the language you can change the var lang input on those files stt.py, tts.py and openai.py (from en to the desired language)
+
+# Demo vedio
+
