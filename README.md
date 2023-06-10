@@ -29,4 +29,11 @@ The package consists of the following files:
 $ rosrun openai_chat stt_node.py
 2. Launch the TTS node in another terminal:
 $ rosrun openai_chat tts_node.py
-3-
+-To run this node you should run it from a ROS noetic not ROS melodic (Note: requires python3)
+-Make sure to run the following commands before running the node
+$export ROS_IP=192.168.0.147 (change this to your IP)
+$export ROS_HOSTNAME=192.168.0.147 (change this to your IP)
+$export ROS_MASTER_URI=http://192.168.0.193:11311
+ 
+3. run openAi Node
+$python3 openAiNode.py
