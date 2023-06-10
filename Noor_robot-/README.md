@@ -1,17 +1,16 @@
-#User Manual of Noor
+# User Manual of Noor
 
-#First turn on Master (start functionalities of Noor)
-
+# First turn on Master (start functionalities of Noor)
 $roslaunch nourrobot bringup.launch
 
-#Second runing stt node  to start detecting voice
+# Second runing stt node  to start detecting voice
 $rosrun openai_chat stt_node.py
 
-#start the tts node to convert text to speach to run the chat gpt output 
+# start the tts node to convert text to speach to run the chat gpt output 
 $rosrun openai_chat tts_node.py
 
 
-#start  open ai node to convert the text to text through chat gpt 
+# start  open ai node to convert the text to text through chat gpt 
 1-To run this node you should run it from a ROS noetic not ROS melodic (Note: requires python3)
 
 2-Make sure to run the following commands before running the node
@@ -22,5 +21,5 @@ $export ROS_MASTER_URI=http://192.168.0.193:11311
 3-run openAi Node
 $python3 openAiNode.py
 
-#Note
+# Note
 to change the language you can change the var lang input on those files gspeech.py, openai.py and tts.py (from en to the desired language)
