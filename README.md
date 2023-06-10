@@ -37,3 +37,6 @@ $ rosrun openai_chat tts_node.py
  
 3. run openAi Node:
 $python3 openAiNode.py
+
+
+
