@@ -41,3 +41,6 @@ $python3 openAiNode.py
 
 
 
+# Demo video
+https://drive.google.com/file/d/1D14foehEX9_W39Uk4JGSOdb8twopSYeW/view?usp=sharing
+
