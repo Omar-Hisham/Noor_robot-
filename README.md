@@ -7,9 +7,10 @@ This ROS package contains three nodes that enable speech-to-text (STT) and text-
 
 - ROS melodic (installed on Noor) & ROS noetic (for openai node)
 - Python 2.7 and (3.x for openai node)
-- speech_recognition
-- gtts (Google Text-to-Speech)
+- speech_recognition (pip install SpeechRecognition)
+- gtts (Google Text-to-Speech) (pip install gTTS)
 - (your custom API for communicating with OpenAI)
+- pip install openai
 
 # OpenAI Chat ROS Package
 
